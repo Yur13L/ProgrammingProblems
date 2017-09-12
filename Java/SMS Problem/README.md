@@ -9,12 +9,17 @@ Rules + Goals:
 
 int solution(String S, int K)
 
-Where S is the full SMS Message like "MORE THAN YOU KNOW"
+Where S is the full SMS Message like "sample text message please"
 Where K is the maximum string length per SMS message
 
 2. Function Result
 Must return number of minimum possible SMS needed to send. 
 -1 if not possible to divide.
+
+ex
+
+solution("sample text message please", 6)
+returns 4
 
 
 ETC:
